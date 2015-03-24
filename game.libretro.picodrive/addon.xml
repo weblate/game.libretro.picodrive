@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.picodrive"
+		name="Genesis (Picodrive)"
+		version="1.91.0"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+		<import addon="game.controller.nes" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_android="game.libretro.picodrive.so"
+			library_linux="game.libretro.picodrive.so"
+			library_osx="game.libretro.picodrive.dylib"
+			library_windx="game.libretro.picodrive.dll"
+			library_wingl="game.libretro.picodrive.dll">
+		<platforms>Genesis</platforms>
+		<extensions>smd|bin</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_no_game>false</supports_no_game>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Picodrive v1.91</summary>
+		<description>Source: https://github.com/libretro/picodrive</description>
+		<platform>all</platform>
+	</extension>
+</addon>
