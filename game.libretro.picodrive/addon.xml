@@ -8,7 +8,7 @@
 		<import addon="game.controller.genesis" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-			library_android="game.libretro.picodrive.so"
+			library_android="libgame.libretro.picodrive.so"
 			library_linux="game.libretro.picodrive.so"
 			library_osx="game.libretro.picodrive.dylib"
 			library_windx="game.libretro.picodrive.dll"
