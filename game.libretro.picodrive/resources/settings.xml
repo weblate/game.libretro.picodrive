@@ -5,6 +5,9 @@
 		<setting label="30002" type="labelenum" id="picodrive_input2" values="3 button pad|6 button pad|None" default="3 button pad"/>
 		<setting label="30003" type="labelenum" id="picodrive_sprlim" values="disabled|enabled" default="disabled"/>
 		<setting label="30004" type="labelenum" id="picodrive_ramcart" values="disabled|enabled" default="disabled"/>
+		<setting label="30005" type="labelenum" id="picodrive_region" values="Auto|Japan NTSC|Japan PAL|US|Europe" default="Auto"/>
+		<setting label="30006" type="labelenum" id="picodrive_region_fps" values="Auto|NTSC|PAL" default="Auto"/>
+		<setting label="30007" type="labelenum" id="picodrive_drc" values="enabled|disabled" default="enabled"/>
 	</category>
 </settings>
 
