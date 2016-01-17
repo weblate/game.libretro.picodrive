@@ -35,3 +35,15 @@ msgstr ""
 msgctxt "#30004"
 msgid "MegaCD RAM cart"
 msgstr ""
+
+msgctxt "#30005"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Region FPS"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Dynamic recompilers"
+msgstr ""

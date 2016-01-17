@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.picodrive"
-		name="Genesis (Picodrive)"
+		name="Sega Genesis (Picodrive)"
 		version="1.91.0"
 		provider-name="Libretro">
 	<requires>
@@ -13,8 +13,8 @@
 			library_osx="game.libretro.picodrive.dylib"
 			library_windx="game.libretro.picodrive.dll"
 			library_wingl="game.libretro.picodrive.dll">
-		<platforms>Genesis</platforms>
-		<extensions>smd|bin</extensions>
+		<platforms>Genesis|Game Gear|SEGA Master System|Sega CD|Megadrive|Mega CD</platforms>
+		<extensions>bin|gen|smd|md|32x|cue|iso|sms</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_no_game>false</supports_no_game>
 	</extension>
