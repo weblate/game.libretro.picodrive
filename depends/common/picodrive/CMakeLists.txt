@@ -43,5 +43,5 @@ externalproject_add(picodrive
 install(FILES ${PROJECT_SOURCE_DIR}/picodrive_libretro${CMAKE_SHARED_LIBRARY_SUFFIX}
         DESTINATION ${CMAKE_INSTALL_PREFIX}/lib)
 
-# write the picodrive-config.cmake script
-file(WRITE ${CMAKE_INSTALL_PREFIX}/picodrive-config.cmake "set(PICODRIVE_LIB ${CMAKE_INSTALL_PREFIX}/lib/picodrive_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
+# write the libretro-picodrive-config.cmake script
+file(WRITE ${CMAKE_INSTALL_PREFIX}/libretro-picodrive-config.cmake "set(PICODRIVE_LIB ${CMAKE_INSTALL_PREFIX}/lib/picodrive_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})")
