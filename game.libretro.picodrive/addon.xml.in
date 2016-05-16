@@ -8,11 +8,7 @@
 		<import addon="game.controller.genesis" version="1.0.0"/>
 	</requires>
 	<extension point="kodi.gameclient"
-			library_android="libgame.libretro.picodrive.so"
-			library_linux="game.libretro.picodrive.so"
-			library_osx="game.libretro.picodrive.dylib"
-			library_windx="game.libretro.picodrive.dll"
-			library_wingl="game.libretro.picodrive.dll">
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Genesis|Game Gear|SEGA Master System|Sega CD|Megadrive|Mega CD</platforms>
 		<extensions>bin|gen|smd|md|32x|cue|iso|sms</extensions>
 		<supports_vfs>false</supports_vfs>
@@ -25,7 +21,8 @@
 
 Authors: Dave (aka fdave, finalburn author) and notaz</description>
 		<license>Non-commercial</license>
-		<platform>all</platform>
+		<platform>@PLATFORM@</platform>
 		<nofanart>true</nofanart>
 	</extension>
 </addon>
+
