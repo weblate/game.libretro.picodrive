@@ -1,0 +1,42 @@
+From 779d96d907ecbd5fce8a9b7c1a7f0cf172bc5c0d Mon Sep 17 00:00:00 2001
+From: Christian Fetzer <fetzer.ch@gmail.com>
+Date: Mon, 5 Dec 2016 23:12:44 +0100
+Subject: [PATCH 1/1] Fix compilation with DEBUG flag
+
+- Use DEBUG flag similar to other libretro cores (DEBUG=0 disables,
+  DEBUG=1 enables the debug build)
+- Optimize with -O2 for debugging because the core won't work otherwise
+- Always strip sections to prevent undefined symbol errors
+---
+ Makefile | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 9b364dd..a62d9b1 100644
+--- a/Makefile
++++ b/Makefile
+@@ -1,16 +1,19 @@
+ TARGET ?= PicoDrive
++DEBUG = 0
+ CFLAGS += -Wall 
+ CFLAGS += -I. -DINLINE=inline
+-ifndef DEBUG
++ifeq ($(DEBUG),0)
+ ifeq ($(platform), vita)
+ CFLAGS += -O3 -DNDEBUG
+ else
+ CFLAGS += -O2 -DNDEBUG -ffunction-sections
+ endif
++else
++CFLAGS += -g -O2
++endif
+ ifneq ($(APPLE),1)
+ LDFLAGS += -Wl,--gc-sections
+ endif
+-endif
+ #CFLAGS += -DEVT_LOG
+ #CFLAGS += -DDRC_CMP
+ #cpu_cmp = 1
+-- 
+2.11.0
+
