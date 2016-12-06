@@ -1,14 +1,14 @@
-# XBMC Media Center language file
-# Addon Name: @name@
-# Addon id: @id@
-# Addon Provider: @authors@
+# game.libretro.picodrive language file
+# Addon Name: game.libretro.picodrive
+# Addon id: game.libretro.picodrive
+# Addon Provider: libretro
 msgid ""
 msgstr ""
-"Project-Id-Version: Libretro Clients\n"
+"Project-Id-Version: game.libretro.picodrive\n"
 "Report-Msgid-Bugs-To: alanwww1@xbmc.org\n"
-"POT-Creation-Date: 2014-05-30 17:00+8\n"
-"PO-Revision-Date: 2014-05-30 17:00+8\n"
-"Last-Translator: XBMC Translation Team\n"
+"POT-Creation-Date: 2016-12-06 21:53i\n"
+"PO-Revision-Date: 2016-12-06 21:53i\n"
+"Last-Translator: Kodi Translation Team\n"
 "Language-Team: English (http://www.transifex.com/projects/p/xbmc-addons/language/en/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -21,15 +21,15 @@ msgid "Settings"
 msgstr ""
 
 msgctxt "#30001"
-msgid "Input device 1"
+msgid "Core-provided aspect ratio"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Input device 2"
+msgid "Input device 1"
 msgstr ""
 
 msgctxt "#30003"
-msgid "No sprite limit"
+msgid "Input device 2"
 msgstr ""
 
 msgctxt "#30004"
@@ -45,5 +45,5 @@ msgid "Region FPS"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Dynamic recompilers"
+msgid "No sprite limit"
 msgstr ""
