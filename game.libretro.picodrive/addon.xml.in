@@ -25,5 +25,10 @@ Authors: Dave (aka fdave, finalburn author) and notaz
 Supported files: .bin, .gen, .smd, .md, .32x, .cue, .iso, .sms</description>
 		<license>MAME</license>
 		<platform>@PLATFORM@</platform>
+		<assets>
+			<screenshot>resources/screenshot-01.jpg</screenshot>
+			<screenshot>resources/screenshot-02.jpg</screenshot>
+			<screenshot>resources/screenshot-03.jpg</screenshot>
+		</assets>
 	</extension>
 </addon>
