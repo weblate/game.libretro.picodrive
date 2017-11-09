@@ -33,19 +33,19 @@ msgid "Input device 2"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Show Overscan"
+msgid "68k overclock"
 msgstr ""
 
 msgctxt "#30005"
-msgid "MegaCD RAM cart"
+msgid "Show Overscan"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Region"
+msgid "MegaCD RAM cart"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Region FPS"
+msgid "Region"
 msgstr ""
 
 msgctxt "#30008"
