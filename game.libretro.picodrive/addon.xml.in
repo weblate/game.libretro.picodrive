@@ -13,8 +13,6 @@
 		<extensions>bin|gen|smd|md|32x|cue|iso|sms</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
-		<supports_keyboard>false</supports_keyboard>
-		<supports_mouse>false</supports_mouse>
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Sega - MS/MD/CD/32X (PicoDrive) 1.92</summary>
