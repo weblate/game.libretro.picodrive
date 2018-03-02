@@ -15,8 +15,8 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Sega - MS/MD/CD/32X (PicoDrive) 1.92</summary>
-		<description>Picodrive is yet another Megadrive / Genesis / Sega CD / Mega CD / 32X / SMS emulator heavily optimized for ARM.
+		<summary lang="en_GB">Sega - MS/MD/CD/32X (PicoDrive) 1.92</summary>
+		<description lang="en_GB">Picodrive is yet another Megadrive / Genesis / Sega CD / Mega CD / 32X / SMS emulator heavily optimized for ARM.
 
 Authors: Dave (aka fdave, finalburn author) and notaz
 
