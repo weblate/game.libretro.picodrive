@@ -25,33 +25,41 @@ msgid "Core-provided aspect ratio"
 msgstr ""
 
 msgctxt "#30002"
-msgid "Dynamic recompilers"
+msgid "Audio filter"
 msgstr ""
 
 msgctxt "#30003"
-msgid "Input device 1"
+msgid "Dynamic recompilers"
 msgstr ""
 
 msgctxt "#30004"
-msgid "Input device 2"
+msgid "Input device 1"
 msgstr ""
 
 msgctxt "#30005"
-msgid "68k overclock"
+msgid "Input device 2"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Show Overscan"
+msgid "Low-pass filter %"
 msgstr ""
 
 msgctxt "#30007"
-msgid "MegaCD RAM cart"
+msgid "68k overclock"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Region"
+msgid "Show Overscan"
 msgstr ""
 
 msgctxt "#30009"
+msgid "MegaCD RAM cart"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Region"
+msgstr ""
+
+msgctxt "#30011"
 msgid "No sprite limit"
 msgstr ""
