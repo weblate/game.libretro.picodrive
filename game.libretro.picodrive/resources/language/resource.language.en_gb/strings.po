@@ -45,7 +45,7 @@ msgid "Low-pass filter %"
 msgstr ""
 
 msgctxt "#30007"
-msgid "68k overclock"
+msgid "68K Overclock"
 msgstr ""
 
 msgctxt "#30008"

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.picodrive"
 		name="Sega - MS/MD/CD/32X (PicoDrive)"
-		version="1.92.0.4"
+		version="1.92.0.5"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
