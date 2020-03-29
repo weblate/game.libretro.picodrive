@@ -61,5 +61,13 @@ msgid "Region"
 msgstr ""
 
 msgctxt "#30011"
+msgid "Renderer"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Sound quality"
+msgstr ""
+
+msgctxt "#30013"
 msgid "No sprite limit"
 msgstr ""
