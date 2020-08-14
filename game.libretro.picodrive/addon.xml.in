@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.picodrive"
 		name="Sega - MS/MD/CD/32X (PicoDrive)"
-		version="1.92.0.10"
-		provider-name="Libretro">
+		version="1.96.0.11"
+		provider-name="notaz, fdave">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
 		<import addon="game.controller.genesis.6button" version="1.0.0"/>
@@ -15,7 +15,7 @@
 		<supports_standalone>false</supports_standalone>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en_GB">Sega - MS/MD/CD/32X (PicoDrive) 1.92</summary>
+		<summary lang="en_GB">Sega - MS/MD/CD/32X (PicoDrive) 1.96</summary>
 		<description lang="en_GB">Picodrive is yet another Megadrive / Genesis / Sega CD / Mega CD / 32X / SMS emulator heavily optimized for ARM.
 
 Authors: Dave (aka fdave, finalburn author) and notaz
