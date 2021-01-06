@@ -13,7 +13,7 @@
 		<setting label="30010" type="select" id="picodrive_overscan" values="disabled|enabled" default="disabled"/>
 		<setting label="30011" type="select" id="picodrive_ramcart" values="disabled|enabled" default="disabled"/>
 		<setting label="30012" type="select" id="picodrive_region" values="Auto|Japan NTSC|Japan PAL|US|Europe" default="Auto"/>
-		<setting label="30013" type="select" id="picodrive_renderer" values="accurate|fast" default="accurate"/>
+		<setting label="30013" type="select" id="picodrive_renderer" values="accurate|good|fast" default="accurate"/>
 		<setting label="30014" type="select" id="picodrive_sound_rate" values="44100|16000|22050|32000" default="44100"/>
 		<setting label="30015" type="select" id="picodrive_sprlim" values="disabled|enabled" default="disabled"/>
 	</category>

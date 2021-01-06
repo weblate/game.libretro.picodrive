@@ -1,1 +1,1 @@
-picodrive https://github.com/libretro/picodrive/archive/46902e040a57d7292a5d7bb9e7fec36d57ed19fe.zip
+picodrive https://github.com/libretro/picodrive/archive/175ac8838ec179ece19e3ba2a53470e004e33c42.zip
