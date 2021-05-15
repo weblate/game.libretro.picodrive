@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.picodrive"
 		name="Sega - MS/MD/CD/32X (PicoDrive)"
-		version="1.98.0.20"
+		version="1.98.0.21"
 		provider-name="notaz, fdave, irixxxx">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -10,7 +10,7 @@
 	<extension point="kodi.gameclient"
 			library_@PLATFORM@="@LIBRARY_FILENAME@">
 		<platforms>Genesis|Game Gear|SEGA Master System|Sega CD|Megadrive|Mega CD</platforms>
-		<extensions>bin|gen|smd|md|32x|cue|iso|chd|sms</extensions>
+		<extensions>bin|gen|smd|md|32x|cue|iso|chd|sms|m3u</extensions>
 		<supports_vfs>false</supports_vfs>
 		<supports_standalone>false</supports_standalone>
 	</extension>
@@ -20,7 +20,7 @@
 
 Authors: Dave (aka fdave, finalburn author) and notaz
 
-Supported files: .bin, .gen, .smd, .md, .32x, .cue, .iso, .chd, .sms</description>
+Supported files: .bin, .gen, .smd, .md, .32x, .cue, .iso, .chd, .sms, .m3u</description>
 		<license>MAME</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.picodrive</source>
